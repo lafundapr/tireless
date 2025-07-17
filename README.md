@@ -1,1 +1,82 @@
-# tireless
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIRELESS Coin</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4b731; /* yellow from logo */
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      background-image: url('logo.png'); /* Add logo path */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .buy-button {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-button:hover {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo"></div>
+  <h1>TIRELESS</h1>
+  <p>
+    In the chaotic trenches of meme coin warfare, one truth remains:
+    real Trenchers never sleep, never rest, never quit. They are <strong>Tireless</strong> —
+    forged by conviction, fueled by community, and driven by the unshakable belief
+    that the next moonshot is just one block away.
+  </p>
+  <p>
+    The <strong>T</strong> is not just a letter — it's a badge of honor. It stands for every holder
+    who refused to fold, every degen who bought the dip, and every believer who knows
+    that true power lies in persistence.
+  </p>
+  <p>
+    While others fade, <strong>Tireless</strong> keeps pushing. This isn't just another meme — it's a movement.<br>
+    <strong>We are the sleepless, the relentless, the Tireless.</strong>
+  </p>
+  <a href="https://pump.fun" target="_blank">
+    <button class="buy-button">Buy $TIRELESS Now</button>
+  </a>
+</body>
+</html>
